@@ -1,0 +1,16 @@
+.marginTop {
+  margin-top: 5%;
+}
+
+.marginTopN {
+  margin-top: -10%;
+}
+
+@media (max-width: 1020px) {
+  .marginTop {
+    margin-top: 0;
+  }
+  .marginTopN {
+    margin-top: 0;
+  }
+}
