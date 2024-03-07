@@ -1,0 +1,54 @@
+#blogContainer {
+  height: fit-content;
+  width: 98vw;
+  margin: 10vh auto;
+  background-color: #1d2145;
+  color: white;
+  border-radius: 20px;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+}
+
+.outer {
+  display: block;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  height: fit-content;
+}
+#blogh1 {
+  font-size: calc(7rem + 0.6vw);
+  font-family: "TT";
+  line-height: 7rem;
+  width: 30%;
+  margin: 0;
+  height: 20%;
+  text-align: start;
+}
+
+.outer div {
+  height: fit-content;
+}
+
+@media (max-width: 1020px) {
+  .outer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .outer div {
+    margin: 20px auto;
+    width: fit-content;
+  }
+  .removeMarginBtm {
+    margin-bottom: 0;
+  }
+  .removeMarginTop {
+    margin-top: 0;
+  }
+}
